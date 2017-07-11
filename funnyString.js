@@ -12,11 +12,9 @@ function funnyString(s, r){
         if (Math.abs(text - textToCompare) !== Math.abs(reverse - reverseToCompare)) {
             return 'Not Funny';
         }
-
-        else if (i === s.length - 1){
-            return 'Funny';
-        }
     }
+
+    return 'Funny';
 }
 
 function main() {
